@@ -1,0 +1,22 @@
+let codigo = document.getElementById("codigo");
+let nombre = document.getElementById("nombre");
+let btnvalidar = document.getElementById("btn-validar");
+let mensaje = document.getElementById("mensa");
+let prueba= documenr.getElementById("unaclase");
+
+btnValida.addEventListener("click",validar);
+
+borrar.addEventListener("click",borre);
+function borre();
+prueba.classList.remove("fondo");
+
+function validar (){
+    if(cedula.value == ""){
+        console.log("esta en blanco");
+        cedula.style.borderColor="red";
+        mensaje.classList.add("fondo");
+        prueba.classList.add("fondo");
+        mensaje.innerHTML ="cedula vacia";
+
+    }
+}

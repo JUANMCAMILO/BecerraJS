@@ -1,0 +1,22 @@
+div{
+border: 1;
+grid-row: 2;
+}
+.rojo{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    float: left;
+}
+.verde{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    float: left;
+}
+.blanco{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    float: left;
+}
