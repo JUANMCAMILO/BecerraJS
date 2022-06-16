@@ -1,0 +1,12 @@
+.cuadro{
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+}
+.borde{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    float: left;
+    background-color: black;
+}
