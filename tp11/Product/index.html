@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product App</title>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <nav class="navbar navbar-dark bg-dark">
+    <a href="navbar-brand">Product App</a>
+    <div><button> login</button></div>
+   </nav>
+   
+   <div class="alert alert-success mt-2">addProduct</div>
+   
+   <!--APLICATION-->
+   <div class="container"> <!--container with margin-->
+        <div id="app" class="row pt-5">
+            <!--we create the colums-->
+            <div class="col-md-4">
+                    <!--we create a card---->
+                    <div class="card">
+                        <div class="card-header"> <h4>add a product</h4></div>
+                       
+                            <form method="post" id="product-form" class="card-body">
+                                <div class="form-group">
+                                    <input id="name" placeholder="product name"
+                                    type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" id="price" placeholder="product-price" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" id="year"
+                                    placeholder="intro year" class="form-control">
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-block" 
+                                value="save">
+                               
+                            </form>
+                    </div>
+                </div>
+            <div class="col-md-8" id="product-list">
+            </div>
+        </div>
+    </di>
+
+
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="app/index.js"></script>
+</body>
+</html>
